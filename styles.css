@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 @font-face {
     font-family: my-title-font;
     src: url(./assets/modern-heritage-display-font/);
@@ -5,26 +9,34 @@
 
 .leftImage {
     position: fixed;
+    margin-left: 100px;
+    height: 100%;
+}
+
+#image {
+    height: 100%;
 }
 
 #titleContainer {
     background-color: black;
     position: absolute;
     color: white;
-    top: 10rem;
+    top: 30%;
     opacity: 70%;
     width: 18.7rem;
-
 }
 
 #myTitle {
     color: white;
     text-align: center;
     font-family: my-title-font, sans-serif;
+    margin: 20px;
 }
 
-#photCredit {
+#photoCredit {
     position: absolute;
     color: white;
-    top: 25rem;
+    bottom: 0;
+    text-align: center;
+    width: 18.7rem;
 }
