@@ -1,0 +1,15 @@
+.leftImage {
+    position: fixed;
+}
+
+#myTitle {
+    position: absolute;
+    color: white;
+    top: 10rem;
+}
+
+#photCredit {
+    position: absolute;
+    color: white;
+    top: 25rem;
+}
