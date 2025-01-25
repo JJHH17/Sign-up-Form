@@ -1,11 +1,25 @@
+@font-face {
+    font-family: my-title-font;
+    src: url(./assets/modern-heritage-display-font/);
+}
+
 .leftImage {
     position: fixed;
 }
 
-#myTitle {
+#titleContainer {
+    background-color: black;
     position: absolute;
     color: white;
     top: 10rem;
+    opacity: 70%;
+    width: 18.7rem;
+
+}
+
+#myTitle {
+    color: white;
+    text-align: center;
 }
 
 #photCredit {
