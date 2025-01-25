@@ -20,6 +20,7 @@
 #myTitle {
     color: white;
     text-align: center;
+    font-family: my-title-font, sans-serif;
 }
 
 #photCredit {
