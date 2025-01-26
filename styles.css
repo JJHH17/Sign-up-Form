@@ -3,8 +3,10 @@
 }
 
 @font-face {
-    font-family: my-title-font;
-    src: url(./assets/modern-heritage-display-font/);
+    font-family: 'my-title-font';
+    src: url(./assets/modern-heritage-display-font/ModernHeritageDisplay-4neLW.otf) format('opentype');
+    font-weight: normal; /* Optional: define the font weight */
+    font-style: normal; /* Optional: define the font style */
 }
 
 .leftImage {
@@ -82,4 +84,19 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+}
+
+#submitButton {
+    background-color: green;
+    color: white;
+    margin-top: 25px;
+}
+
+#signIn {
+    padding-left: 400px;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 22rem;
+    background-color: linen;
 }
