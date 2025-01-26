@@ -55,6 +55,26 @@
     margin-left: 100px;
 }
 
-input, label {
-    display: block;
+#name, #secondName, #contact-details, #phone-details, 
+#initPassword, #passwordConfirm {
+    display: flex;
+    flex-direction: column;
+}
+
+#fullName {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#fullContact {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#fullPassword {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 }
