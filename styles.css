@@ -13,6 +13,10 @@
     height: 100%;
 }
 
+#formTitle {
+    margin-top: 20px;
+}
+
 #image {
     height: 100%;
 }
@@ -59,6 +63,7 @@
 #initPassword, #passwordConfirm {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 #fullName {
