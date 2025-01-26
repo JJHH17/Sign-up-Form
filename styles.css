@@ -36,6 +36,7 @@
     color: white;
     text-align: center;
     font-family: my-title-font, sans-serif;
+    font-size: 2rem;
     margin: 20px;
 }
 
@@ -100,3 +101,11 @@
     padding-bottom: 22rem;
     background-color: linen;
 }
+
+input:invalid {
+    border-color: red;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
